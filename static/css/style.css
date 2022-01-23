@@ -1,0 +1,29 @@
+#title1 {
+    color:salmon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:left;
+    font-size: 80px;
+}
+
+#title12 {
+    color:sandybrown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 45px;
+}
+
+#pedido {
+    color:salmon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+#phone {
+    color:orangered;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+}
+
+/* #navbar1 {
+    
+} */
