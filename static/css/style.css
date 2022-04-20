@@ -12,18 +12,30 @@
     font-size: 45px;
 }
 
+#logo {
+    padding-left:100px;
+    padding-right:20px;
+}
+
 #pedido {
     color:salmon;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
+    padding-left:450px;
 }
 
 #phone {
     color:orangered;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:20px;
+    padding-left:700px;
 }
 
-/* #navbar1 {
-    
-} */
+#map_container {
+    width:1500px;
+    height: 400px;
+}
+
+#map {
+    height: 390px;
+}
