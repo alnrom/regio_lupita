@@ -1,15 +1,15 @@
 #title1 {
     color:salmon;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align:left;
-    font-size: 80px;
+    font-size: 80px; */
 }
 
-#title12 {
+#title12 { 
     color:sandybrown;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    font-size: 45px;
+    font-size: 45px; */
 }
 
 #logo {
@@ -33,9 +33,21 @@
 
 #map_container {
     width:1500px;
-    height: 400px;
+    height: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color:rgb(170, 239, 241); */
+    color:rgb(14, 155, 141);
 }
+
+#direccion {
+    padding-top:15px;  
+} 
 
 #map {
     height: 390px;
 }
+
+/* #landing_images {
+    height: 400px;
+} */
