@@ -1,0 +1,2 @@
+Media query para mapa
+Texto blanco grande animado sobre foto de fondo o que las fotos aparezcan y desaparezcan dejando ver el fondo

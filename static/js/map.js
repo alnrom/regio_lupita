@@ -1,6 +1,6 @@
 var myMap = L.map("map", {
-    center: [25.74635, -100.27675],
-    zoom: 15
+    center: [25.746258785242276, -100.27675488957141],
+    zoom: 14
   });
   
   // Adding tile layer
@@ -13,4 +13,10 @@ var myMap = L.map("map", {
     accessToken: API_KEY
   }).addTo(myMap);
 
-  L.marker([25.74635, -100.27675]).addTo(myMap);
+  L.marker([25.746258785242276, -100.27675488957141]).addTo(myMap);
+
+  setInterval(function () {
+    myMap.invalidateSize();
+ }, 100);
+
+ 
