@@ -3,7 +3,10 @@ from flask import Flask, jsonify, render_template
 from flask_talisman import Talisman
 
 app = Flask(__name__)
-Talisman(app)
+csp = {
+    'default-src': '\'self\''
+}
+talisman = Talisman(app, content_security_policy=csp)
 
 @app.route('/')
 def index():
